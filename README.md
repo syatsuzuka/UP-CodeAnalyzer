@@ -14,8 +14,18 @@ Step.3) Create NuGet package following the following instruction
 https://activities.uipath.com/docs/creating-a-custom-activity
 
 
+## How to Run
+
+Step.1) Open the attached Workflow file with UiPath Studio
+
+Step.2) Install created NuGet package
+
+Step.3) Run Main.xaml. Then you should be able to find report files in "Output" folder
+
+
 ## Activities
 
 * ReadXAML: Read XAML file specified in "InputFile" and output XDocument
 * AnalyzeXAML: Analyze XAML Data (XDocument) and output Structure Info (XDocument), Issue List (DataTable), and Statistic List (DataTable).
+
 
